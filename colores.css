@@ -1,0 +1,48 @@
+table, th, td{
+    border: 2px solid rgb(35, 22, 145);
+    border-collapse: collapse;
+    width: min-content;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+th{
+    color: rgb(177, 151, 151);
+}
+td{
+    color: rgb(55, 22, 122);
+    text-align: center;
+}
+
+.len{
+    background-color: rgb(255, 251, 0);
+}
+.soc{
+    background-color: rgb(188, 74, 223);
+}
+.ef{
+    background-color: rgb(0, 217, 255);
+}
+.nat{
+    background-color: rgba(204, 40, 40, 0.753);
+}
+.ing{
+    background-color: rgb(240, 144, 219);
+}
+.alt{
+    background-color: rgba(39, 172, 27, 0.452);
+}
+.mat{
+    background-color: rgba(238, 15, 15, 0.411);
+}
+.plas{
+    background-color: rgb(230, 21, 184);
+}
+.dig{
+    background-color: rgb(202, 174, 16);
+}
+.bib{
+    background-color: rgb(236, 216, 35);
+}
+.mus{
+    background-color: rgb(214, 201, 231);
+}
