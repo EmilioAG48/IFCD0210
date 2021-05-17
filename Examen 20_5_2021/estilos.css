@@ -1,0 +1,38 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  /* cuando activo el color no coge el footer */
+  /* color: rgb(77, 165, 42); */
+  /* padding: 10px; */
+}
+.footer {
+  /* padding: 5px; */
+  background: #aaa;
+  margin: 20px;
+  color: hsl(232, 69%, 6%);
+  width: 30;
+}
+
+/*--------------- color de los links ---------*/
+
+a:link {
+  color: indigo; /*- color RGB--*/
+}
+a:visited {
+  color: hsl(348, 83%, 47%); /*- color HSL--*/
+}
+a:hover {
+  color: #e5f133; /*- color Hexsdecimal--*/
+}
+a:active {
+  color: gold;
+}
+
+/* -------------------------------------------- */
+
+img {
+  max-width: 400px;
+}
+video {
+  width: 400px;
+}
