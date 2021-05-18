@@ -25,13 +25,17 @@ const compararNumeros = () => {
   }
 };
 
-// compararNumeros();
+// boton eventlistener----------------------------
+
+const button = document.getElementById("button");
+button.addEventListener("click", (e) => {
+  compararNumeros();
+});
 
 // ---- array con deportes favoritos hacia console.log  ...............................
+
 const arrayDeportes = () => {
-  //Declaro el array con los deportes
   const deportes = ["baloncesto", "tenis", "volleyball", "futbol", "pingpong"];
-  // console.log(deportes);
   deportes.push("fronton");
   deportes.unshift("natacion");
   console.log(deportes);
@@ -39,6 +43,7 @@ const arrayDeportes = () => {
   console.log(arrayordenada);
 };
 arrayDeportes();
+
 // ------- Lista ordenada.--------------------------
 
 const rellenarUl = () => {

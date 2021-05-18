@@ -15,6 +15,7 @@
 }
 
 /*--------------- color de los links ---------*/
+
 #navegacion {
   background-color: rgb(206, 233, 196);
 }
@@ -151,19 +152,24 @@ form {
   width: 800px;
 }
 /*---------------- Lista ordenada----------- */
+
 .listaOrd {
   background-color: #d1d396;
   width: 800px;
 }
-/* Delegacion de eventos */
+/* Delegacion de eventos ------------------------*/
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+   /* border: 1px solid black; */
+
   grid-gap: 10px;
   width: 300px;
 }
 
 .gallery__item {
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -174,8 +180,8 @@ form {
 .red {
   background: red;
 }
-/* Clase objeto--------------------- */
-/* #javascript {
-  width: 100px;
-  height: 100px;
-} */
+pre{
+  background-color: rgb(235, 235, 35);
+  color: rgb(148, 12, 12);
+  width: 550px;
+}
